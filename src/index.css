@@ -1,0 +1,28 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {  
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+.buttons {
+  width: 35px;
+  height: 35px;
+}
+
+.bords {
+  display: flex;
+  flex-wrap: wrap;
+  height: 105px;
+  width: 105px;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
